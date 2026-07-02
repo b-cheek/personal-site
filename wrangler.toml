@@ -1,9 +1,8 @@
 name = "personal-site"
-compatibility_date = "2026-07-01"
-preview_urls = true 
+compatibility_date = "2026-07-02"
+workers_dev = true
+preview_urls = true
 
-[assets] 
-directory = "./public" 
-not_found_handling = "404-page" 
-
-
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
