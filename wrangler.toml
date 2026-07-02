@@ -1,6 +1,6 @@
 name = "personal-site"
 compatibility_date = "2026-07-01"
-pages_build_output_dir = "./public"
+preview_urls = true
 
 [vars]
 HUGO_VERSION = "0.163.3"
@@ -8,5 +8,6 @@ HUGO_VERSION = "0.163.3"
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
 
 
