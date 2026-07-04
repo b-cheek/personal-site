@@ -16,6 +16,10 @@ theme = 'PaperMod'
         identifier = 'blog'
         name = 'Blog'
         url = '/blog/'
+    [[menu.main]]
+        identifier = 'about'
+        name = 'About'
+        url = '/about/'
 
 [params]
     [params.profileMode]
@@ -23,13 +27,21 @@ theme = 'PaperMod'
         title = "Hi, I'm Brayden"
         subtitle = "I enjoy building software and making music. See some of my work:"
 
-        [[params.profileMode.buttons]]
-            name = "Software"
-            url = ""
-        [[params.profileMode.buttons]]
-            name = "Music"
-            url = ""
-
         [[params.socialIcons]]
-            name = "test"
+            name = "gitlab"
             url = "test"
+        [[params.socialIcons]]
+            name = "instagram"
+            url = "test"
+
+        [[params.profileMode.imageLinks]]
+            name = "SlidePositions"
+            desc = "desc"
+            url = "google.com"
+            image = "https://i.sstatic.net/yZlqh.png"
+        [[params.profileMode.imageLinks]]
+            name = "Music"
+            desc = "desc"
+            url = "google.com"
+            image = "https://i.sstatic.net/yZlqh.png"
+
