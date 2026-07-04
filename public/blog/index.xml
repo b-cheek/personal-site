@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Brayden Cheek</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Brayden Cheek</description>
+    <title>Blog on Brayden Cheek</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Brayden Cheek</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Jul 2026 10:56:09 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>http://localhost:1313/blog/test/</link>
