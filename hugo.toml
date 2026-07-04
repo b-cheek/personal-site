@@ -36,9 +36,9 @@ theme = 'PaperMod'
 
         [[params.profileMode.imageLinks]]
             name = "SlidePositions"
-            desc = "desc"
-            url = "google.com"
-            image = "https://i.sstatic.net/yZlqh.png"
+            desc = "Mathematically rigorous slide position visualizations"
+            url = "https://slidepositions.com"
+            image = "slidePositions.webp"
         [[params.profileMode.imageLinks]]
             name = "Music"
             desc = "desc"
