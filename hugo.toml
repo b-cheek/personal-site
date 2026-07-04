@@ -2,3 +2,34 @@ baseURL = 'https://bcheek.dev/'
 locale = 'en-us'
 title = 'Brayden Cheek'
 theme = 'PaperMod'
+
+[menu]
+    [[menu.main]]
+        identifier = 'software'
+        name = 'Software'
+        url = '/software/'
+    [[menu.main]]
+        identifier = 'music'
+        name = 'Music'
+        url = '/music/'
+    [[menu.main]]
+        identifier = 'blog'
+        name = 'Blog'
+        url = '/blog/'
+
+[params]
+    [params.profileMode]
+        enabled = true
+        title = "Hi, I'm Brayden"
+        subtitle = "I enjoy building software and making music. See some of my work:"
+
+        [[params.profileMode.buttons]]
+            name = "Software"
+            url = ""
+        [[params.profileMode.buttons]]
+            name = "Music"
+            url = ""
+
+        [[params.socialIcons]]
+            name = "test"
+            url = "test"
