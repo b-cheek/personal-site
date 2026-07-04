@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://bcheek.dev/'
 locale = 'en-us'
 title = 'Brayden Cheek'
 theme = 'PaperMod'
