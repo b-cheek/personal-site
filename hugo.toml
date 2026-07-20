@@ -29,10 +29,10 @@ theme = 'PaperMod'
 
         [[params.socialIcons]]
             name = "gitlab"
-            url = "test"
+            url = "https://gitlab.com/cheekbw"
         [[params.socialIcons]]
             name = "instagram"
-            url = "test"
+            url = "https://www.instagram.com/cheeks.bone/"
 
         [[params.profileMode.imageLinks]]
             name = "SlidePositions"
@@ -40,8 +40,8 @@ theme = 'PaperMod'
             url = "https://slidepositions.com"
             image = "slidePositions.webp"
         [[params.profileMode.imageLinks]]
-            name = "Music"
-            desc = "desc"
-            url = "google.com"
-            image = "https://i.sstatic.net/yZlqh.png"
+            name = "Sweet Georgia Brown - Swazz Band"
+            desc = "A jazz combo recording with my friends from college"
+            url = "https://www.youtube.com/watch?v=2tD5iXhXHqs"
+            image = "swazzThumb.webp"
 
