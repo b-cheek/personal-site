@@ -37,9 +37,9 @@
         {{- with .imageLinks }}
         <div class="imageLinks" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; width: 100%; max-width: 800px; margin-top: 20px;">
             {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; padding: 0; overflow: hidden; border-radius: 8px; text-align: left; height: 100%; justify-content: flex-start;">
+            <a class="button" href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer" style="display: block; padding: 0; overflow: hidden; border-radius: 8px; text-align: left; height: 100%; width: 100%; max-width: 100%; box-sizing: border-box;">
 
-                <img src="{{ .image }}" alt="{{ .name }}" style="width: 100%; height: 140px; object-fit: cover; margin: 0; border-radius: 0;">
+                <img src="{{ .image }}" alt="{{ .name }}" style="transform: none; width: 100%; height: 140px; object-fit: cover; margin: 0; border-radius: 0; display: block;">
 
                 <span class="button-inner" style="display: flex; flex-direction: column; padding: 14px; width: 100%; box-sizing: border-box; align-items: flex-start;">
 
