@@ -1,8 +1,5 @@
 +++
 title = "Music"
-description = "desc"
+description = "Assorted recordings of me making music"
 +++
 
-## Test
-
-Test

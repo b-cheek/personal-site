@@ -1,8 +1,4 @@
 +++
 title = "Software"
-description = "desc"
+description = "My personal projects"
 +++
-
-## Test
-
-Test

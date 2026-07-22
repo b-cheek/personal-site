@@ -1,4 +1,6 @@
 +++
 title = "Blog"
-description = "desc"
+description = "Deep dives and miscellaneous musings"
 +++
+
+
