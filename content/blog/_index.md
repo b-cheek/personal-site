@@ -1,6 +1,6 @@
-+++
-title = "Blog"
-description = "Deep dives and miscellaneous musings"
-+++
+---
+description: Deep dives and miscellaneous musings
+title: Blog
+---
 
 

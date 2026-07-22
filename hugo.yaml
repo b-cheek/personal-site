@@ -1,0 +1,39 @@
+baseURL: https://bcheek.dev/
+locale: en-us
+title: Brayden Cheek
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: software
+      name: Software
+      url: /software/
+    - identifier: music
+      name: Music
+      url: /music/
+    - identifier: blog
+      name: Blog
+      url: /blog/
+    - identifier: about
+      name: About
+      url: /about/
+
+params:
+  profileMode:
+    enabled: true
+    title: Hi, I'm Brayden
+    subtitle: "I enjoy building software and making music. See some of my work:"
+    imageLinks:
+      - name: SlidePositions
+        desc: Mathematically rigorous slide position visualizations
+        url: https://slidepositions.com
+        image: slidePositions.webp
+      - name: Sweet Georgia Brown - Swazz Band
+        desc: A jazz combo recording with my friends from college
+        url: https://www.youtube.com/watch?v=2tD5iXhXHqs
+        image: swazzThumb.webp
+  socialIcons:
+    - name: gitlab
+      url: https://gitlab.com/cheekbw
+    - name: instagram
+      url: https://www.instagram.com/cheeks.bone/

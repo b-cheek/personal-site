@@ -1,4 +1,4 @@
-+++
-title = "Software"
-description = "My personal projects"
-+++
+---
+description: My personal projects
+title: Software
+---

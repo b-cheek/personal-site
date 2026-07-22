@@ -1,7 +1,7 @@
-+++
-title = "About"
-description = "Some more about myself and this site"
-+++
+---
+description: Some more about myself and this site
+title: About
+---
 
 ## This site
 
