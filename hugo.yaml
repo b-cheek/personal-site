@@ -19,6 +19,7 @@ menu:
       url: /about/
 
 params:
+  author: Brayden Cheek
   profileMode:
     enabled: true
     title: Hi, I'm Brayden
