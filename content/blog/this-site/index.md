@@ -82,8 +82,8 @@ The final step is hosting. I've recently switched to using a Cloudflare for my w
 
 | Simplicity | Availability & Reliability | Predictable Costs |
 | :--- | :--- | :--- |
-| Nice dashboard | 99.999% uptime | Free DDoS protection |
-| GitLab integration | Anycast edge & failover | Rate limiting & firewall |
+| Nice dashboard | 99.999% uptime | DDoS protection |
+| GitLab integration | Anycast edge & failover | Rate limiting |
 | DNS & registrar | Well established | No egress fees |
 
 Beside a few setbacks trying to make Hugo and the recently overhauled Cloudflare workers to work together,
