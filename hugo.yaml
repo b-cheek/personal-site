@@ -20,6 +20,11 @@ menu:
 
 params:
   author: Brayden Cheek
+  assets:
+    favicon: "favicons/favicon.ico"
+    favicon16x16: "favicons/favicon-16x16.png"
+    favicon32x32: "favicons/favicon-32x32.png"
+    apple_touch_icon: "favicons/apple-touch-icon.png"
   profileMode:
     enabled: true
     title: Hi, I'm Brayden
