@@ -1,7 +1,7 @@
 ---
 title: "Arrivederci Roma - Renato Rascel, arr. Sandy Smith"
-description: "Trombone section feature with the UF Brass Band." # end with period
-summary: "Trombone section feature with the UF Brass Band." # copy description
+description: "Trombone section feature with the UF Brass Band" 
+summary: "Trombone section feature with the UF Brass Band" # copy description
 date: "2025-04-10T18:00:00-04:00"
 draft: false
 

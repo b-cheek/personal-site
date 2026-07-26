@@ -1,7 +1,7 @@
 ---
 title: "bcheek.dev"
-description: "The why and how of my website."
-summary: "The why and how of my website."
+description: "The why and how of my website"
+summary: "The why and how of my website"
 date: "2026-07-22T22:23:22-04:00"
 draft: false
 
