@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .File.ContentBaseName `-` ` ` | title }}"
-description: "" # end with period
+description: ""
 summary: "" # copy description
 date: "{{ .Date }}"
 draft: true
