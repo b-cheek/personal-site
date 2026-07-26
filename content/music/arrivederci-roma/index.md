@@ -5,8 +5,8 @@ summary: "Trombone section feature with the UF Brass Band." # copy description
 date: "2025-04-10T18:00:00-04:00"
 draft: false
 
-categories: ["brass band"] # Software, Music Misc
-tags: ["section feature"] # lowercase
+categories: ["large bore tenor"] # large bore tenor, small bore tenor, bass
+tags: ["brass band", "section feature"] # lowercase genre, style, other
 series: [] # only set after second post belonging to a series,
 # and update links to use series instead of single post
 
