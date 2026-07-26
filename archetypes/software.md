@@ -1,8 +1,7 @@
 ---
 title: "{{ replace .File.ContentBaseName `-` ` ` | title }}"
-description: ""
+description: "" 
 summary: "" # copy description
-date: "{{ .Date }}"
 draft: true
 
 tags: [] # appropriately cased tools, paradigms, mediums, etc

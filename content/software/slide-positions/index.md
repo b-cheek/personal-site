@@ -2,7 +2,6 @@
 title: "SlidePositions"
 description: "Mathematically rigorous slide position visualizations"
 summary: "Mathematically rigorous slide position visualizations" # copy description
-date: "2026-07-25T17:36:17-04:00"
 draft: false
 
 tags: ["React", "TypeScript", "music"] # appropriately cased tools, paradigms, mediums, etc
