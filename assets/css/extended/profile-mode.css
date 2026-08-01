@@ -1,7 +1,5 @@
 .main .profile {
-  min-height: auto;
   padding-block: calc(var(--gap) * 1.25);
-  align-items: stretch;
 }
 
 @media (min-width: 700px) {
@@ -14,8 +12,6 @@
 }
 
 .profile .profile_inner {
-  width: 100%;
-  align-items: stretch;
   gap: 0.75rem;
 }
 
@@ -25,36 +21,37 @@
 }
 
 .imageLinks {
-  display: grid !important;
-  grid-template-columns: minmax(0, 1fr) !important;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 0.75rem;
-  width: 100%;
-  max-width: 100%;
   margin-top: 0.25rem;
 }
 
-@media (min-width: 700px) {
-  .imageLinks {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-}
-
+/* Mobile-first button defaults */
 .imageLinks .button {
   min-width: 0;
 }
 
 .imageLinks .button img {
-  height: 120px;
+  height: 100px;
 }
 
-@media (max-width: 480px) {
-  .imageLinks .button img {
-    height: 100px;
-  }
+.imageLinks .button .button-inner {
+  padding: 12px;
+}
 
-  .imageLinks .button .button-inner {
-    padding: 12px;
+/* Mobile view (> 480px up to desktop) */
+@media (min-width: 481px) {
+  .imageLinks .button img {
+    height: 120px;
+  }
+}
+
+/* Desktop layout (>= 700px) */
+@media (min-width: 700px) {
+  .imageLinks {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
   }
 }
