@@ -1,0 +1,60 @@
+.main .profile {
+  min-height: auto;
+  padding-block: calc(var(--gap) * 1.25);
+  align-items: stretch;
+}
+
+@media (min-width: 700px) {
+  .main .profile {
+    min-height: calc(
+      100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2)
+    );
+    padding-block: calc(var(--gap) * 2);
+  }
+}
+
+.profile .profile_inner {
+  width: 100%;
+  align-items: stretch;
+  gap: 0.75rem;
+}
+
+.profile .profile_inner > h1,
+.profile .profile_inner > span {
+  margin: 0;
+}
+
+.imageLinks {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0.25rem;
+}
+
+@media (min-width: 700px) {
+  .imageLinks {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.imageLinks .button {
+  min-width: 0;
+}
+
+.imageLinks .button img {
+  height: 120px;
+}
+
+@media (max-width: 480px) {
+  .imageLinks .button img {
+    height: 100px;
+  }
+
+  .imageLinks .button .button-inner {
+    padding: 12px;
+  }
+}
