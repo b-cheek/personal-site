@@ -3,6 +3,7 @@ title: "Arrivederci Roma - Renato Rascel, arr. Sandy Smith"
 description: "Trombone section feature with the UF Brass Band" 
 summary: "Trombone section feature with the UF Brass Band" # copy description
 date: "2025-04-10T18:00:00-04:00"
+author: "University of Florida Brass Band"
 draft: false
 
 categories: ["large bore tenor"] # large bore tenor, small bore tenor, bass

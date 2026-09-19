@@ -3,6 +3,7 @@ title: "{{ replace .File.ContentBaseName `-` ` ` | title }}"
 description: ""
 summary: "" # copy description
 date: "{{ .Date }}"
+author: "Brayden Cheek"
 draft: true
 
 categories: [] # large bore tenor, small bore tenor, basstags: [] # lowercase genre, style, other

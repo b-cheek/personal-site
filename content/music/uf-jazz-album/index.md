@@ -3,6 +3,7 @@ title: "UF Jazz Album"
 description: "Jazz big band album with the UF Jazz Band"
 summary: "Jazz big band album with the UF Jazz Band" # copy description
 date: "2025-04-28T12:00:00-04:00"
+author: "University of Florida Jazz Band"
 draft: false
 
 categories: ["small bore tenor"] # large bore tenor, small bore tenor, bass

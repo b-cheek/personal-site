@@ -2,6 +2,7 @@
 title: "{{ replace .File.ContentBaseName `-` ` ` | title }}"
 description: "" 
 summary: "" # copy description
+author: "Brayden Cheek"
 draft: true
 
 tags: [] # appropriately cased tools, paradigms, mediums, etc
