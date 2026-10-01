@@ -24,7 +24,7 @@ duration: "4:48" # MM:SS or H:MM:SS
 ---
 
 This is a video of our college jazz combo Swazz Band playing Sweet Georgia Brown.
-This was one of our first recordings of a group, and I'm featured on the melody and with a solo.
+This was one of our first recordings as a group, and I'm featured on the melody and with a solo.
 Big thanks to the UF Jazz program and donors for getting this together.
 
 {{< youtube 2tD5iXhXHqs >}}
